@@ -68,6 +68,6 @@ public class Product extends Money {
 
     public void showResult() {
         System.out.println("The cost of the goods minus your amount:");
-        System.out.println(priceWhole + " rubles " + countPennies + " kopecks.");
+        System.out.println(countWhole + " rubles " + countPennies + " kopecks.");
     }
 }

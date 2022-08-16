@@ -7,7 +7,6 @@ public class Product extends Money {
     public int pricePennies; // цена в копейках.
     private int countWhole ; // итоговая сумма в рублях.
     private int countPennies ; // итоговая сумма в копейках.
-
     public int getPriceWhole() {
         return priceWhole;
     }
@@ -21,7 +20,7 @@ public class Product extends Money {
     }
 
     public void setPricePennies() {
-        this.pricePennies = priceWhole;
+        this.pricePennies = pricePennies;
     }
 
     public int getCountWhole() {
